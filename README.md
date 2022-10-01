@@ -1,24 +1,7 @@
-# contact-organizer
+# Contact Organizer
+Live site - https://bejewelled-creponne-28f14a.netlify.app
 
-## Project setup
-```
-npm install
-```
+## Features
+Contact organizer is a contact keeping website. User can add new contact, view individual contacts and delete them if they want. User can also edit any contact's data.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

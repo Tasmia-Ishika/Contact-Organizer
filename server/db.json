@@ -1,16 +1,6 @@
 {
   "contacts": [
     {
-      "id": "D6BNdWnHI",
-      "name": "Brad Jackson",
-      "company": "Brad Co.",
-      "email": "brad@gmail.com",
-      "title": "Business Partner",
-      "phone": "764786576",
-      "photo": "https://cdn-icons-png.flaticon.com/512/219/219986.png",
-      "groupId": "4"
-    },
-    {
       "id": "DgCdHwgC",
       "name": "Nuba Remini",
       "company": "Angels LTD.",
@@ -59,6 +49,16 @@
       "title": "Engineer",
       "groupId": "5",
       "id": "rdyQ642"
+    },
+    {
+      "name": "Brad Jackson",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219986.png",
+      "email": "brad@gmail.com",
+      "phone": 6453562372,
+      "company": "Brad Co.",
+      "title": "Business Tycoon",
+      "groupId": "6",
+      "id": "9Saz_uY"
     }
   ],
   "groups": [
