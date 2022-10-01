@@ -4,3 +4,11 @@ body{
     font-family: 'Abyssinica SIL', serif !important; 
     background-color: rgb(215, 236, 228) !important;
 }
+.contact-img{
+    width: 150px;
+    border-radius: 50%;
+}
+.contact-img-big{
+    width: 200px;
+    border-radius: 50%;  
+}
