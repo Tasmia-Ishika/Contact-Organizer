@@ -1,9 +1,8 @@
 <template>
-    <div class=" row row-cols-1 row-cols-lg-2 g-4 m-4  text-center">
-        <div>
-            <p class="h1 mt-4 fw-bold "> Welcome to Contact Organizer</p>
-            <p class="h5 lg:mt-2 fst-italic">Save your times by preventing yourself from memorizing any contacts. Simply
-                store them so that you can have access on them when you might need !!</p>
+    <div class=" row row-cols-1 row-cols-lg-2 g-4 m-4 text-center">
+        <div class="col align-items-center">
+            <p class="h1 mt-4 fw-bold lg:m-8"> Welcome to Contact Organizer</p>
+            <p class="h5 lg:mt-2 fst-italic">Save your times by preventing yourself from memorizing any contacts. Contact organizer is essential for keeping digital records of contact data. The process of storing and tracking data of your near and dear ones. In addition to providing quick access to any contact data, investing in contact management can help you stopping wasting times. Simply store them so that you can have access on them when you might need !!</p>
             <p>
                 <router-link to="/contacts/add" class="btn btn-success mt-3"><i class="fa fa-plus-circle"></i> Create
                     New Contact</router-link>
@@ -29,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                  <p class="h2 text-danger fw-bold">{{errorMessage}}</p>
+                    <p class="h2 text-danger fw-bold">{{errorMessage}}</p>
                 </div>
             </div>
         </div>
@@ -60,13 +59,13 @@
                                 </ul>
                             </div>
                             <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center ">
-                                <router-link to="/contacts/view/:contactId" class="btn btn-warning my-1">
+                                <router-link :to="`/contacts/view/${contact.id}`" class="btn btn-warning my-1">
                                     <i class="fa fa-eye"></i>
                                 </router-link>
-                                <router-link to="/contacts/edit/:contactId" class="btn btn-primary my-1">
+                                <router-link :to="`/contacts/edit/${contact.id}`" class="btn btn-primary my-1">
                                     <i class="fa fa-pen"></i>
                                 </router-link>
-                                <button class="btn btn-danger my-1">
+                                <button class="btn btn-danger my-1" @click="clickDeleteContact(contact.id)">
                                     <i class="fa fa-trash"></i>
                                 </button>
                             </div>
@@ -104,7 +103,24 @@ export default {
             this.loading = false;
         }
     },
-    methods: {},
+    methods: {
+        clickDeleteContact: async function (contactId) {
+            try {
+                this.loading = true;
+                let response = await ContactService.deleteContact(contactId);
+                if (response) {
+
+                    let response = await ContactService.getAllContacts();
+                    this.contacts = response.data;
+                    this.loading = false;
+                }
+            }
+            catch (error) {
+                this.errorMessage = error;
+                this.loading = false;
+            }
+        }
+    },
     components: { LoadingSpinner }
 }
 </script>

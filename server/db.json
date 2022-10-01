@@ -1,70 +1,90 @@
 {
-    "contacts": [
-        {
-            "id": "D6BNdWnHI",
-            "name": "Brad Jackson",
-            "company": "Brad Co.",
-            "email": "brad@gmail.com",
-            "title": "Business Partner",
-            "phone": "764786576",
-            "photo": "https://cdn-icons-png.flaticon.com/512/219/219986.png",
-            "groupId": "4"
-        },
-        {
-            "id": "DgCdHwgC",
-            "name": "Nuba Remini",
-            "company": "Angels LTD.",
-            "email": "nremini@gmail.com",
-            "title": "Friend",
-            "phone": "963427492",
-            "photo": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
-            "groupId": "3"
-        },
-        {
-            "id": "JhUIVeVpo",
-            "name": "Venessa Lawrence",
-            "company": "Sisters pvt",
-            "email": "lawrence@gmail.com",
-            "title": "Social",
-            "phone": "7231729222",
-            "photo": "https://cdn-icons-png.flaticon.com/512/190/190664.png",
-            "groupId": "2"
-        },
-        {
-            "id": "KllTsfRhP",
-            "name": "Lara Simon",
-            "company": "Alkaline Corp",
-            "email": "getsimon@gmail.com",
-            "title": "Colleague",
-            "phone": "91582456",
-            "photo": "https://cdn4.iconfinder.com/data/icons/people-of-business/512/People_Business_woman_jacket_name_tag-512.png",
-            "groupId": "1"
-        }
-    ],
-    "groups": [
-        {
-            "id": "1",
-            "name": "Colleague"
-        },
-        {
-            "id": "2",
-            "name": "Friend"
-        },
-        {
-            "id": "3",
-            "name": "Relative"
-        },
-        {
-            "id": "4",
-            "name": "Business Partner"
-        },
-        {
-            "id": "5",
-            "name": "Social"
-        },
-        {
-            "id": "6",
-            "name": "Community"
-        }
-    ]
+  "contacts": [
+    {
+      "id": "D6BNdWnHI",
+      "name": "Brad Jackson",
+      "company": "Brad Co.",
+      "email": "brad@gmail.com",
+      "title": "Business Partner",
+      "phone": "764786576",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219986.png",
+      "groupId": "4"
+    },
+    {
+      "id": "DgCdHwgC",
+      "name": "Nuba Remini",
+      "company": "Angels LTD.",
+      "email": "nremini@gmail.com",
+      "title": "Friend",
+      "phone": "963427492",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
+      "groupId": "3"
+    },
+    {
+      "id": "JhUIVeVpo",
+      "name": "Venessa Lawrence",
+      "company": "Sisters pvt",
+      "email": "lawrence@gmail.com",
+      "title": "Social",
+      "phone": "7231729222",
+      "photo": "https://www.pngitem.com/pimgs/m/3-39242_abbyjohnson-circle-infograph-4-woman-icon-png-circle.png",
+      "groupId": "2"
+    },
+    {
+      "id": "KllTsfRhP",
+      "name": "Lara Simon",
+      "company": "Alkaline Corp",
+      "email": "getsimon@gmail.com",
+      "title": "Colleague",
+      "phone": "91582456",
+      "photo": "https://cdn4.iconfinder.com/data/icons/people-of-business/512/People_Business_woman_jacket_name_tag-512.png",
+      "groupId": "1"
+    },
+    {
+      "name": "Tasmia Ishika",
+      "photo": "https://teamgreen.org.in/wp-content/uploads/2021/03/girl-3.png",
+      "email": "itasmia.cse@gmail.com",
+      "phone": 63235228783,
+      "company": "Laravel Pvt.",
+      "title": "Web Developer",
+      "groupId": "4",
+      "id": "aQgecL_"
+    },
+    {
+      "name": "Mathilda Jennifer",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXylNfNg_Eztr8FNY8nemA2o2Gi9E49SfEYiRIg0DdU86H5V2zSFnJ7TUSBIv_uHq86Gs&usqp=CAU",
+      "email": "mjennifer@gmail.com",
+      "phone": 65242442592,
+      "company": "Bosko and brothers",
+      "title": "Engineer",
+      "groupId": "5",
+      "id": "rdyQ642"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Business Partner"
+    },
+    {
+      "id": "5",
+      "name": "Social"
+    },
+    {
+      "id": "6",
+      "name": "Community"
+    }
+  ]
 }
