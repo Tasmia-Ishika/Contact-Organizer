@@ -1,6 +1,6 @@
 <template>
     <div class=" row row-cols-1 row-cols-lg-2 g-4 m-4 text-center">
-        <div class="col align-items-center">
+        <div class="col align-items-center ">
             <p class="h1 mt-4 fw-bold lg:m-8"> Welcome to Contact Organizer</p>
             <p class="h5 lg:mt-2 fst-italic">Save your times by preventing yourself from memorizing any contacts. Contact organizer is essential for keeping digital records of contact data. The process of storing and tracking data of your near and dear ones. In addition to providing quick access to any contact data, investing in contact management can help you stopping wasting times. Simply store them so that you can have access on them when you might need !!</p>
             <p>
@@ -41,11 +41,11 @@
             <div class="col-md-6" v-for="contact of contacts" :key="contact">
                 <div class="card my-2 list-group-item-success shadow-lg">
                     <div class="card-body">
-                        <div class="row align-items-center">
-                            <div class="col-sm-4">
-                                <img :src="contact.photo" alt="" class="contact-img">
+                        <div class="row content-center align-items-center">
+                            <div class="col-sm-4 d-flex justify-content-center ">
+                                <img :src="contact.photo" alt="" class="contact-img ">
                             </div>
-                            <div class="col-sm-7">
+                            <div class="col-sm-7 my-3">
                                 <ul class="list-group">
                                     <li class="list-group-item">
                                         Name : <span class="fw-bold">{{contact.name}}</span>
@@ -58,11 +58,11 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center ">
+                            <div class="col-sm-1 d-flex flex-lg-column sm-bg-primary justify-content-center  align-items-center ">
                                 <router-link :to="`/contacts/view/${contact.id}`" class="btn btn-warning my-1">
                                     <i class="fa fa-eye"></i>
                                 </router-link>
-                                <router-link :to="`/contacts/edit/${contact.id}`" class="btn btn-primary my-1">
+                                <router-link :to="`/contacts/edit/${contact.id}`" class="btn mx-3 btn-primary my-1">
                                     <i class="fa fa-pen"></i>
                                 </router-link>
                                 <button class="btn btn-danger my-1" @click="clickDeleteContact(contact.id)">
