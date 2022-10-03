@@ -1,8 +1,10 @@
 <template>
     <div class=" row row-cols-1 row-cols-lg-2 g-4 m-4 text-center">
         <div class="col align-items-center ">
-            <p class="h1 mt-4 fw-bold lg:m-8"> Welcome to Contact Organizer</p>
-            <p class="h5 lg:mt-2 fst-italic">Save your times by preventing yourself from memorizing any contacts. Contact organizer is essential for keeping digital records of contact data. The process of storing and tracking data of your near and dear ones. In addition to providing quick access to any contact data, investing in contact management can help you stopping wasting times. Simply store them so that you can have access on them when you might need !!</p>
+            <p class="h1 mt-3 fw-bold fst-italic display-4">We Welcome you to Contact Organizer..
+            </p>
+            <p class="h1 mt-4 fw-bold"></p>
+            <p class="h5 lg:mt-2">Save your times by preventing yourself from memorizing any contacts. Contact organizer is essential for keeping digital records of contact data. The process of storing and tracking data of your near and dear ones. Simply store them so that you can have access on them when you might need !!</p>
             <p>
                 <router-link to="/contacts/add" class="btn btn-success mt-3"><i class="fa fa-plus-circle"></i> Create
                     New Contact</router-link>
