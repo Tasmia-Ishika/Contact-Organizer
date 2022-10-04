@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col">
                 <h2 class="mt-3">Add Your Contact</h2>
-                <p class="fst-italic">Add as many as numbers you want without any extra hassle...</p>
+                <p class="fst-italic">Add as many as contacts you want without any extra hassle...</p>
             </div>
         </div>
     </div>

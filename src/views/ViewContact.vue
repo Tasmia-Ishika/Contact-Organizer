@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col">
                 <h2 class="mt-3">View Details of Contact.</h2>
-                <p class="fst-italic">Edit any changes for an individual contacts...</p>
+                <p class="fst-italic">Check all details of a contact on a simple way...</p>
             </div>
         </div>
     </div>

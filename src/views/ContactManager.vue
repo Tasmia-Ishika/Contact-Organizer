@@ -4,7 +4,7 @@
             <p class="h1 mt-3 fw-bold fst-italic display-4">We Welcome you to Contact Organizer..
             </p>
             <p class="h1 mt-4 fw-bold"></p>
-            <p class="h5 lg:mt-2">Save your times by preventing yourself from memorizing any contacts. Contact organizer is essential for keeping digital records of contact data. The process of storing and tracking data of your near and dear ones. Simply store them so that you can have access on them when you might need !!</p>
+            <p class="h5 lg:mt-2">Save your times by preventing yourself from memorizing any contacts. Contact organizer will be one of your essentials for keeping digital records of your contacts. Mainly a process of storing personal data of your community people. Simply keep them and make them useful when you might need !!</p>
             <p>
                 <router-link to="/contacts/add" class="btn btn-success mt-3"><i class="fa fa-plus-circle"></i> Create
                     New Contact</router-link>
